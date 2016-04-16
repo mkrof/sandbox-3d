@@ -1,3 +1,5 @@
-import THREE from 'three';
+import redSphere from './red-sphere';
 
-console.log(THREE);
+window.addEventListener('DOMContentLoaded', function () {
+  redSphere(window.innerWidth, window.innerHeight);
+});

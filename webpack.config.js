@@ -2,8 +2,8 @@ var path = require('path');
 
 module.exports = {
   entry: [
-    './src/main.js'
-    // 'webpack-dev-server/client?http://localhost:3000',
+    './src/main.js',
+    'webpack-dev-server/client?http://localhost:3000'
   ],
   output: {
     path: path.resolve(__dirname, 'build'),
