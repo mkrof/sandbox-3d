@@ -42,8 +42,8 @@ function init (w, h) {
 }
 
 function update () {
-  pointCloud.rotation.x += 0.005;
-  pointCloud.rotation.y += 0.005;
+  pointCloud.rotation.x += 0.00005;
+  pointCloud.rotation.y += 0.00005;
   stats.update();
   renderer.render(scene, camera);
 }
